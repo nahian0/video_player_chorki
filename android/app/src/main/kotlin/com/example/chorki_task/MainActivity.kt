@@ -58,7 +58,7 @@ class NativeVideoView(context: Context, messenger: BinaryMessenger, id: Int) : P
         player.setAudioAttributes(audioAttributes, true)
 
         val mediaItem = MediaItem.fromUri(
-            "https://video.tenbytecdn.com/transcoded/29c76b41-e725-4405-91ff-210a13d97497/playlist.m3u8"
+            "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
         )
         player.setMediaItem(mediaItem)
         player.prepare()
